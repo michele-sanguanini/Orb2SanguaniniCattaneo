@@ -108,7 +108,7 @@ for beta_gen in plus:
 result = np.asarray(result)
 
 
-## Export file production
+## Visualise results as 3D surface plot and 2D contour plot
 
 fig = plt.figure(2, figsize=(8, 6))
 ax = Axes3D(fig, elev=-150, azim=110)
